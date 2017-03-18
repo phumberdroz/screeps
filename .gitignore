@@ -1,5 +1,4 @@
-
-.DS_Store
+.env.DS_Store
 node_modules/
 npm-debug.log
 .idea/
@@ -8,5 +7,8 @@ dump.rdb
 public/*
 dist
 coverage/
+assets/rev.json
 .nyc_output/
 .env
+.node-persist/
+.DS_Store
