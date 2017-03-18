@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "screeps": "grunt screeps",
+    "publish": "npm run clean && npm run build && npm run screeps",
+    "build": "webpack --config webpack.config.js",
+    "clean": "rimraf dist",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "eslint": "^3.18.0",
+    "grunt": "^1.0.1",
+    "grunt-screeps": "^1.2.1",
+    "rimraf": "^2.6.1",
+    "source-map-loader": "^0.2.0",
+    "webpack": "^2.2.1"
+  }
+}
