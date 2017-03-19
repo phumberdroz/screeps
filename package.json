@@ -14,5 +14,8 @@
     "rimraf": "^2.6.1",
     "source-map-loader": "^0.2.0",
     "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-screeps": "^1.1.0"
   }
 }
